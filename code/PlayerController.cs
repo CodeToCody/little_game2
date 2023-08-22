@@ -47,5 +47,10 @@ public class PlayerController : MonoBehaviour{
 
         // 依角色變化改變動畫的速度
         this.animator.speed = speedx / 2.0f; // 動畫速度會是移動速度的0.5倍(real time with the current speed)
+        
+    }
+    // 抵達終點
+    void OnTriggerEnter2D(Collider2D other){
+        Debug.Log("終點");
     }
 }
