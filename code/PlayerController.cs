@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour{
     // 物理
     Rigidbody2D rigid2D;
     float jumpForce = 340.0f;
-    float walkForce = 10.0f;
+    float walkForce = 6.0f;
     float maxWalkSpeed = 0.9f;
     
     void Start(){
